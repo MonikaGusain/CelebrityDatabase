@@ -1,10 +1,9 @@
-
-import CelebritiesList from './components/CelebritiesList';
-import "./css/celebrities.css"
+import Main from "./components/Main";
+import "./App.css";
 function App() {
   return (
     <div className="App">
-      <CelebritiesList/>
+      <Main />
     </div>
   );
 }
